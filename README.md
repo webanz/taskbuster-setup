@@ -27,5 +27,5 @@ myd_test, myd_dev .  All project references will be changed to myDjango.
 # Links  
 
 * Taskbuster-Boilerplate  : https://github.com/mineta/taskbuster-boilerplate 
-* Taskbuster Django Tutorial Marina Mele : http://www.marinamele.com/taskbuster-django-tutorial 
+* Taskbuster Django Tutorial by Marina Mele : http://www.marinamele.com/taskbuster-django-tutorial 
 
