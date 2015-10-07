@@ -17,7 +17,10 @@ pip_command    : pip or pip3
 ```
 Example 
 ```sh
-./tbsetup.sh  myDjango  myd  /usr/bin/python3  pip3 
+./tbsetup.sh  myDjango  myd  /usr/bin/python3  pip3  
+
+This will clone taskbuster-boilerplate to ../ , setup virtualenvs
+myd_test, myd_dev .  All project references will be changed to myDjango. 
 
 ```
 
