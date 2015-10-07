@@ -8,6 +8,8 @@
 
 # TODO # 
 #  Add proper cmd argument handling 
+#  Use a generated random secret 
+
   
 
 if [ "$#" -ne 4 ]; then
@@ -61,7 +63,7 @@ python=$3
 pip=$4
 
 # TODO Generate
-secret="SECRETT"
+secret=`cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1`
 
 # clone Repo
 if [ -d  ${tb_bp} ]; then
