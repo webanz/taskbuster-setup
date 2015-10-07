@@ -10,8 +10,14 @@
 #  Add proper cmd argument handling 
   
 
+if [ "$#" -ne 4 ]; then
+    echo "Usage : ./tbsetup.sh  project_name  env_prefix python_path pip_command"
+    echo "Example : ./tbsetup.sh mydjango  myd  /usr/bin/python3  pip3  " 
+    exit 1
+fi
 
-# Do  not run as root
+
+#Do  not run as root
 if [[ $EUID -eq 0 ]]; then
    echo "This script must not be run as root" 1>&2
    exit 1
