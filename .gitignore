@@ -1,0 +1,66 @@
+# Vim  
+
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+
+
+
+# Atom 
+
+;atom 
+
+*.swp
+*~
+.DS_Store
+Thumbs.db
+.project
+.svn
+.nvm-version
+node_modules
+npm-debug.log
+debug.log
+/tags
+/atom-shell/
+/electron/
+docs/output
+docs/includes
+spec/fixtures/evil-files/
+
+# Emacs 
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Org-mode
+.org-id-locations
+*_archive
+
+# flymake-mode
+*_flymake.*
+
+# eshell files
+/eshell/history
+/eshell/lastdir
+
+# elpa packages
+/elpa/
+
+# reftex files
+*.rel
+
+# AUCTeX auto folder
+/auto/
+
+# cask packages
+.cask/
+
