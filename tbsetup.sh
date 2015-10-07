@@ -3,6 +3,9 @@
 # https://github.com/mineta/taskbuster-boilerplate
 # http://www.funtoo.org/Sed_by_Example,_Part_2
 
+# TODO # 
+  #  Add proper cmd argument handling 
+  
 
 
 # Do  not run as root
