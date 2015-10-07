@@ -1,10 +1,12 @@
 #!/bin/bash
 
+# webanz / anzweb.net@gmail.com 
+
+# See  
 # https://github.com/mineta/taskbuster-boilerplate
-# http://www.funtoo.org/Sed_by_Example,_Part_2
 
 # TODO # 
-  #  Add proper cmd argument handling 
+#  Add proper cmd argument handling 
   
 
 
