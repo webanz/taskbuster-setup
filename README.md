@@ -15,6 +15,11 @@ python_path    : Path to python intepretter, eg. /usr/bin/python3
 pip_command    : pip or pip3  
 
 ```
+Example 
+```sh
+./tbsetup.sh  myDjango  myd  /usr/bin/python3  pip3 
+
+```
 
 # Links  
 Taskbuster-Boilerplate  : https://github.com/mineta/taskbuster-boilerplate 
